@@ -1,0 +1,13 @@
+#!/bin/bash
+
+sudo rm -rf /etc/lucidsystems-installer
+sudo rm -rf /usr/bin/lucidsystems-installer
+sudo rm -rf /usr/lib/lucidsystems-installer
+sudo rm -rf /usr/share/lucidsystems-installer
+
+pyrcc4 -o usr/share/lucidsystems-installer/qt_resources_rc.py usr/share/lucidsystems-installer/qt_resources.qrc
+
+sudo cp -R usr /
+sudo cp -R etc /
+
+bbqlinux-installer $1

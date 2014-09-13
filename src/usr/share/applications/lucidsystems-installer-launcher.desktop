@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Install LuicdSystems
+GenericName=LuicdSystems Installer
+Comment=Install LuicdSystems to disk
+Exec=gksudo /usr/bin/lucidsystems-installer
+Icon=lucidsystems_icon_blue_48x48
+Terminal=False
+Type=Application
+Categories=System;

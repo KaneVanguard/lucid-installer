@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Install LucidSystems
+Comment=Install LucidSystems to disk
+Exec=gksudo /usr/bin/lucidsystems-installer
+Icon=lucidsystems_icon_blue_48x48
+Path=
+Terminal=false
+StartupNotify=false
+GenericName=LuicdSystems Installer
